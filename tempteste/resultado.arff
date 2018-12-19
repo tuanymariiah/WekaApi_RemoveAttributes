@@ -1,0 +1,70 @@
+@relation 'labor-neg-data-weka.filters.supervised.instance.Resample-B0.0-S1-Z100.0-weka.filters.supervised.instance.ClassBalancer-num-intervals10-weka.filters.unsupervised.attribute.Remove-R6,1,5,7,12,2,3,11'
+
+@attribute wage-increase-third-year numeric
+@attribute standby-pay numeric
+@attribute shift-differential numeric
+@attribute education-allowance {yes,no}
+@attribute longterm-disability-assistance {yes,no}
+@attribute contribution-to-dental-plan {none,half,full}
+@attribute bereavement-assistance {yes,no}
+@attribute contribution-to-health-plan {none,half,full}
+@attribute class {bad,good}
+
+@data
+?,?,?,?,?,?,yes,full,bad,{1.425}
+?,?,3,no,no,none,?,none,bad,{1.425}
+?,?,?,?,?,?,?,?,bad,{1.425}
+2,?,?,?,?,?,yes,none,bad,{1.425}
+?,?,?,yes,no,none,no,none,bad,{1.425}
+2,?,?,?,?,half,yes,full,bad,{1.425}
+?,?,?,yes,no,none,no,none,bad,{1.425}
+2.5,?,5,no,yes,half,yes,full,bad,{1.425}
+?,?,3,?,no,none,?,none,bad,{1.425}
+?,?,3,no,no,none,?,none,bad,{1.425}
+2.1,2,1,no,no,half,yes,full,bad,{1.425}
+2,?,?,?,?,?,yes,none,bad,{1.425}
+?,?,?,?,?,?,yes,?,bad,{1.425}
+?,?,?,?,?,?,?,?,bad,{1.425}
+?,?,?,yes,no,none,no,none,bad,{1.425}
+?,?,?,yes,no,none,no,none,bad,{1.425}
+?,2,3,no,yes,half,?,none,bad,{1.425}
+?,?,?,yes,no,none,no,none,bad,{1.425}
+?,?,?,?,?,?,yes,?,bad,{1.425}
+2.1,2,1,no,no,half,yes,full,bad,{1.425}
+2.3,?,3,?,?,?,?,?,good,{0.77027}
+?,?,4,?,?,full,?,full,good,{0.77027}
+?,?,10,no,?,?,?,?,good,{0.77027}
+?,14,5,?,yes,?,?,full,good,{0.77027}
+?,?,4,?,?,full,?,?,good,{0.77027}
+?,?,?,yes,yes,half,yes,?,good,{0.77027}
+?,?,2,?,?,?,?,?,good,{0.77027}
+5,?,?,no,?,half,?,?,good,{0.77027}
+?,8,3,?,?,?,?,?,good,{0.77027}
+?,?,?,yes,yes,half,yes,?,good,{0.77027}
+?,?,4,?,?,half,?,full,good,{0.77027}
+4,?,14,?,yes,full,yes,full,good,{0.77027}
+?,?,?,yes,yes,half,yes,?,good,{0.77027}
+5,?,?,?,yes,none,yes,half,good,{0.77027}
+?,?,2,?,?,?,?,?,good,{0.77027}
+?,?,4,?,?,full,?,full,good,{0.77027}
+4.6,?,?,?,?,?,?,?,good,{0.77027}
+?,?,?,yes,yes,none,?,half,good,{0.77027}
+4.5,?,?,?,?,?,yes,full,good,{0.77027}
+?,?,?,yes,?,full,?,full,good,{0.77027}
+?,?,5,?,yes,half,yes,half,good,{0.77027}
+?,8,3,?,?,?,?,?,good,{0.77027}
+?,?,?,?,?,full,yes,?,good,{0.77027}
+?,8,3,?,?,?,?,?,good,{0.77027}
+?,8,3,?,?,?,?,?,good,{0.77027}
+4.5,?,?,?,?,?,yes,full,good,{0.77027}
+?,14,5,?,yes,?,?,full,good,{0.77027}
+5,?,?,?,yes,none,yes,half,good,{0.77027}
+?,13,5,?,?,?,?,?,good,{0.77027}
+4.6,?,?,?,?,?,?,?,good,{0.77027}
+?,12,25,yes,yes,half,yes,?,good,{0.77027}
+?,14,5,?,yes,?,?,full,good,{0.77027}
+?,?,?,?,yes,full,?,?,good,{0.77027}
+?,?,2,?,?,?,yes,?,good,{0.77027}
+4.6,?,?,?,?,?,?,?,good,{0.77027}
+5,?,?,?,?,half,yes,half,good,{0.77027}
+?,?,5,no,yes,full,yes,full,good,{0.77027}
