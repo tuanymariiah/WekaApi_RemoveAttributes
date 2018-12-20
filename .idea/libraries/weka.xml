@@ -2,6 +2,7 @@
   <library name="weka">
     <CLASSES>
       <root url="jar://$USER_HOME$/Desktop/weka.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/LibSVM_Weka.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

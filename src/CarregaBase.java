@@ -17,7 +17,7 @@ public class CarregaBase {
             
             ArffLoader loader = new ArffLoader();
             //loader.setSource(new File("./bases/hand-based-signature_keystroke.arff"));
-            loader.setSource(new File("./bases/basetutuarff.arff"));
+            loader.setSource(new File("./bases/hand-based-signature_keystroke.arff"));
             Instances data = loader.getDataSet();
             // Load Arff
             String[] options = new String[2];
